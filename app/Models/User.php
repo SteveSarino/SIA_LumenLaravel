@@ -10,6 +10,6 @@ use Illuminate\Database\Eloquent\Model;
         // column sa table
         protected $fillable = ['username', 'password'];
 
-        public $timestamps = false;
+        // public $timestamps = false;
         protected $primaryKey = 'userid';
  }
