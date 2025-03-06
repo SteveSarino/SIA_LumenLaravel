@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
     class User extends Model{
         protected $table = 'tbluser';
         // column sa table
-        protected $fillable = ['username', 'password','gender'];
+        protected $fillable = ['username', 'password'];
 
         public $timestamps = false;
-        protected $primaryKey = 'id';
+        protected $primaryKey = 'userid';
  }
